@@ -29,5 +29,7 @@ def graph_scatter_x_and_y(list_x, list_y, x_label, y_label, title):
     plt.show()
 
 
+print('Garrett')
+
 graph_scatter_x_and_y(df['bmi'], df['charges'], "BMI",
                       "Charges", "BMI vs Charges")
